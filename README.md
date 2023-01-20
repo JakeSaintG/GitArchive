@@ -7,6 +7,6 @@ I have too many Git Repos (in my opinion). While I don't need almost 50 repos, I
 Delete a few of the individual repos from my Github and consolidate into a single archive repo. This will allow me to store a few for reference and nostalgia.
 
 ## The consolidation:
-I basically created this new repo, cloned a handful of existing repos into it, and added these existing repos as submodules to the new one.
+I basically created this new repo, cloned a handful of existing repos into it, deleted all of the .git folders, and commited these existing projects into this one. This deleted their git histories and I am okay with that. Many of them were super early in my dev journey and only had one or two commits anyway.
 
-These existing repos were copied exactly as they were and very little was done to change them. Their source remote repos were also likely deleted to free-up some of the clutter from my Github. These projects may have broken remote origins.
+These existing repos were copied exactly as they were and very little was done to change them. 
