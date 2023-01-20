@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sad Libs</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <main class="wrap" role="main">
+            <header class="titleText">
+                <h1>Time for Sadlibs!</h1>
+            </header>
+            <div class="generatedLib" id="generatedLib"></div>
+            <div class="container">
+                <div class="submission">
+                    <label for="adjective1">Throw me an...</label>
+                    <input type="text" name="adjective1" id="adjective1" placeholder="Adjective" size=30px maxlength="30" class="box">
+                </div>
+                <div class="submission">
+                    <label for="adjective1">Give me another...</label>
+                    <input type="text" name="adjective1" id="adjective2" placeholder="Adjective" size=30px maxlength="30" class="box">
+                </div>
+                <div class="submission">
+                    <label for="curse">Write a...</label>
+                    <input type="text" name="curse" id="curse" placeholder="Curse Word" size=30px maxlength="30" class="box">
+                </div>
+                <div class="submission">
+                    <label for="Verb">Give me...</label>
+                    <input type="text" name="Verb" id="verb" placeholder="Verb" size=30px maxlength="30" class="box">
+                </div>
+                <div class="submission">
+                    <label for="noun">Input a...</label>
+                    <input type="text" name="noun" id="noun" placeholder="Noun" size=30px maxlength="30" class="box">
+                </div>
+                <div class="submission">
+                    <label for="Verb2">Finally, enter a...</label>
+                    <input type="text" name="Verb2" id="verb2" placeholder="Verb" size=30px maxlength="30" class="box">
+                </div>
+                <input type="submit" value="Generate!" class="generate" id="generate" onclick="generateLib()">
+            </div>
+            
+        </main>
+        <footer>
+            <span>&copy;1993 JakeSaintG</span>
+        </footer>
+        <script src="js/story.js"></script>
+    </body>
+</html>

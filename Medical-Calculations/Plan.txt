@@ -1,0 +1,13 @@
+Medical Calculcations done on webpage
+
+CPP
+
+MAP (mead airway)
+
+MAP (mean arterial)
+
+OI
+
+blood gas interpret
+
+ejection fraction
